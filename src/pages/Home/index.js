@@ -7,7 +7,8 @@ import '../../comp/Navbar/nav.css';
 const Home = () => (
     <div>
         <Navbar />
-        <div className="text-center mt-5 st"><h1>Ferofly</h1>
+        <div className="text-center st">
+        <h1>Ferofly</h1>
         <p>---Magnify Your Journey---</p></div>
         <img className="mx-auto d-block image img-fluid mt-5 auto" src={main} alt="home_image" />
         <div className="d-flex justify-content-end ic">
