@@ -6,8 +6,13 @@ const Navbar = () => {
     return (
         <div>
             <nav className="navbar navbar-expand-md navbar-light bg-dark nav-s">
+         
+        <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#navbarCollapse">
+            <span className="navbar-toggler-icon"></span>
+        </button>
 
 <div className="collapse navbar-collapse" id="navbarCollapse">
+   
     <div className="navbar-nav">
         <Link to="/" className="nav-item nav-link active points">Home</Link>
         <Link to="/about" className="nav-item nav-link points">About</Link>
