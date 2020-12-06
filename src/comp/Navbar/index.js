@@ -5,7 +5,7 @@ import './nav.css';
 const Navbar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-md navbar-light bg-dark nav-s">
+            <nav className="navbar navbar-expand-md navbar-light bg-dark nav-s fixed-top">
          
         <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#navbarCollapse">
             <span className="navbar-toggler-icon"></span>
