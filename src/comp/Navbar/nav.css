@@ -1,0 +1,44 @@
+.points{
+    color: rgb(250, 249, 249) !important;
+    text-transform: uppercase !important;
+}
+.points:hover{
+    color: rgb(117, 117, 117)!important;
+}
+.book{
+    border: 1px solid rgb(250, 249, 249) !important;
+    color: white !important;
+}
+.book:hover{
+    color: black!important;
+    background-color: rgb(252, 251, 251)!important;
+}
+.nav-s{
+  height: 15vh;
+}
+/* .dir{
+    flex-direction: column;
+    justify-content: center;
+} */
+.ic{
+    margin-top: -360px;
+    margin-right: 60px;
+}
+.chat{
+    margin-top: 90px;
+    margin-left: 50px;
+       font-size: 40px;
+}
+.s{
+    height: 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.image{
+    height: 80vh!important;
+    width: 70vw!important;
+}
+.st{
+    font-family: cursive;
+    font-size: 24px;
+}
