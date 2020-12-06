@@ -5,32 +5,26 @@ import './nav.css';
 const Navbar = () => {
     return (
         <div>
-      <nav class="navbar nav-s navbar-expand-sm navbar-light bg-dark justify-content-center">
-  <ul class="navbar-nav">
-    <li class="nav-item active">
-      <Link class="nav-link points" to="/">Home</Link>
-    </li>
-    <li class="nav-item">
-      <Link class="nav-link points"  to="/about">About</Link>
-    </li>
-    <li class="nav-item">
-      <Link class="nav-link points"  to="/contact">Contact</Link>
-    </li>
-    <li class="nav-item">
-      <Link class="nav-link points"  to="/see&do">See&Do</Link>
-    </li>
-    <li class="nav-item">
-      <Link class="nav-link points"  to="/gallery">Gallery</Link>
-    </li>
-    <li class="nav-item">
-      <Link class="nav-link points"  to="/services">Services</Link>
-    </li>
-    <li class="nav-item">
-      <Link class="nav-link points"  to="/room">Room</Link>
-    </li>
-    <button type="button" class="btn book">Book A Room</button>
-  </ul>
+            <nav className="navbar navbar-expand-md navbar-light bg-dark nav-s">
+
+<div className="collapse navbar-collapse" id="navbarCollapse">
+    <div className="navbar-nav">
+        <Link to="/" className="nav-item nav-link active points">Home</Link>
+        <Link to="/about" className="nav-item nav-link points">About</Link>
+        <Link to="/contact" className="nav-item nav-link points">Contact</Link>
+        <Link to="/see&do" className="nav-item nav-link points">See&DO</Link>
+        <Link to="/gallery" className="nav-item nav-link points">Gallery</Link>
+        <Link to="/room" className="nav-item nav-link points">Room</Link>
+        <Link to="/services" className="nav-item nav-link points">Services</Link>
+       
+       
+    </div>
+    <div className="navbar-nav ml-auto">
+    <Link to="/" className="nav-item nav-link book">Book A Room</Link>
+    </div>
+</div>
 </nav>
+
         </div>
     )
 }
